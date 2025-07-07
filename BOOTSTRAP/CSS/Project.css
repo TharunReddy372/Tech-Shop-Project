@@ -1,0 +1,43 @@
+*::selection {
+      background-color: red;
+    }
+
+    body {
+      padding-top: 70px;
+    }
+
+    * {
+      color: azure;
+    }
+    .mat {
+    top: 20px;
+    align-content: center;
+    margin-left: -15%;
+} 
+
+.card-wrapper {
+ /* display: inline; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    width: 100% !important;
+}
+
+.card-img-top {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
